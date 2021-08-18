@@ -1,0 +1,229 @@
+
+body {
+  padding: 0;
+  margin: 0 ;
+  background-image: url(./img/uaaa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+.wrapper {
+  min-width: 480px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  background-color: hsla(178, 84%, 89%, 1);
+}
+
+
+.hidden {
+  border: none;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Navigation */
+
+.main-nav {
+  display: flex;
+ justify-content: center;
+}
+
+.main-nav__list-first {
+ width: 150px;
+}
+
+.main-nav__list-second {
+  width: 240px;
+}
+
+.main-nav__list-item {
+  position: relative;
+  cursor: pointer;
+  top: 100px;
+  right: 20%;
+
+  margin-top: 10px;
+}
+
+.main-nav__list-second .main-nav__list-item:last-child {
+  margin-top: 20px;
+}
+
+.box-item__color {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: -22px;
+  border: 2px solid #0b479d;
+}
+
+/* -------------------- */
+
+/* Periodic Table */
+
+.table-period {
+display: inline-block;
+
+transform: rotate(-90deg);
+position: relative;
+right: 65px;
+
+}
+
+.table-group {
+display: inline;
+position: relative;
+bottom: 18px;
+left: 2%;
+
+}
+
+/* Colors of elements */
+
+.alkali-metals {
+  background-color: #ffe0b2;
+}
+
+.alkaline-earth-metals {
+  
+  background-color: #ffcc80;
+}
+
+
+.transition-metals {
+  background-color: #d2c4e8;
+}
+
+
+.other-metals {
+  background-color: #ffcdd2;
+}
+
+.other-nonmetals {
+  background-color: #ffab91;
+}
+
+.halogens {
+  background-color: #a5d6a7;
+}
+
+.noble-gases {
+  background-color: #fff;
+}
+
+.rare-earth-elements {
+  background-color: #e6ee9b;
+}
+
+.actinoid-elements {
+  background-color: #b3e5fc;
+}
+
+.highlited--on {
+ opacity: 0.6;
+}
+
+
+.color-light--on {
+  background-image: radial-gradient(ellipse farthest-corner at 50% 50%, hsla(78, 100%, 44%, 1) 70%, hsla(192, 100%, 44%, 1) 90%)
+
+}
+
+
+/* ----------------------- */
+
+.numbers-of-table__horisontal {
+  position: relative;
+
+  font-weight: normal;
+
+  top: -30px;
+}
+ td {
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: bottom;
+
+  border: 2px solid #0b479d;
+}
+
+
+tbody {
+  display: block;
+  border-collapse: collapse;
+}
+
+ th {
+   position: relative;
+   
+   right: 10px;
+   
+   text-align: right;
+   font-weight: normal;
+   
+}
+
+.other-elements__list {
+  position: relative;
+
+  top: 20px;
+  right: 7px;
+}
+
+
+.number-of-elements {
+ display: block;
+ position: relative;
+
+ top: -20px;
+
+  text-align: start; 
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+/* for mobile */
+
+@media(max-width: 680px) {
+  .main-nav {
+    flex-direction: column;
+  }
+  .main-nav__list-item {
+    left: 40px;
+  }
+
+
+  footer p {
+    padding-right: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
